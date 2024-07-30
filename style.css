@@ -124,3 +124,72 @@ body{
     background-color: white;
     font-weight: bold;
  }
+
+ @media screen and (max-width: 790px){
+    .address{
+        width: 130px;
+        font-size: 10px;
+    }
+    
+    .logo img{
+        width: 50px;
+        height: 50px;
+    } 
+    
+    .logo h2{
+        padding-top: 10px;
+        color: red;
+        font-size: 15px;
+    }
+    
+    .company-details .mail-phno{
+        font-size: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    
+     .acknow{
+        float: none;
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-left: 170px;
+     }
+    
+     .acknow strong{
+        font-size: 12px;
+     }
+    
+     .acknow .inputackno{
+        width: 150px;
+        height: 25px;
+        font-size: 15px;
+     }
+    
+     .acknow button{
+        width: 50px;
+        height: 28px;
+     }
+    
+     .receipt-page p{
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 350px;
+        font-size: 10px;
+     }
+    
+     .student-details{
+        margin-top: 10px;
+        margin-left: 0px;
+     }
+
+     table,th,td{
+        font-size: 12px;
+        width:350px;
+     }
+    
+     .print-btn button{
+        width: 80px;
+        float: right;
+        margin-right: 18px;
+     }
+ }
